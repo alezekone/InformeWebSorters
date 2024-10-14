@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 80px auto;
+    width: 90%;
+    outline: 4px solid;
+}
+
+.seccion {
+    color: bisque;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.seccion1 {
+    background-color: blueviolet;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.seccion2 {
+    background-color:green ;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.seccion3 {
+    background-color: cadetblue;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.seccion4 {
+    background-color: crimson;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
