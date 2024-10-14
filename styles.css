@@ -7,15 +7,14 @@
     margin: 80px auto;
     width: 90%;
     outline: 4px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .seccion {
     color: bisque;
     text-align: center;
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
 .seccion1 {
@@ -24,20 +23,26 @@
     grid-row: 1/2;
 }
 
-.seccion2 {
+.seccion2-1 {
     background-color:green ;
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 2/4;
+}
+
+.seccion2-2 {
+    background-color:green ;
+    grid-column: 1/2;
+    grid-row: 2/4;
 }
 
 .seccion3 {
     background-color: cadetblue;
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
 }
 
 .seccion4 {
     background-color: crimson;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
